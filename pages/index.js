@@ -18,7 +18,7 @@ export default function Home() {
       <div className='flex flex-col items-center'>
         <div className='max-w-5xl'>
           <div className='text-3xl md:text-5xl  font-extrabold font-mono pt-24 pb-10 pl-4'>Hey!</div>
-          <div className='text-lg md:text-2xl font-mono pl-4 container'>I'm Samuel Khongthaw a CS junior at <span className='font-bold'>NIT, Meghalaya</span>. I enjoy working with Flutter and NextJS. Check out my <Link className='text-blue-600 hover:text-red-900' href={'https://www.youtube.com/channel/UCtZdrKp44G37iG7Hbd_La1A'}>channel</Link> on YouTube 📺. You can also connect with me on <Link href='https://www.linkedin.com/in/samuel-khongthaw-1a03a8206/' className='text-blue-600 hover:text-red-900'>LinkedIn</Link>.</div>
+          <div className='text-lg md:text-2xl font-mono pl-4 container'>I&#39;m Samuel Khongthaw a CS junior at <span className='font-bold'>NIT, Meghalaya</span>. I enjoy working with Flutter and NextJS. Check out my <Link className='text-blue-600 hover:text-red-900' href={'https://www.youtube.com/channel/UCtZdrKp44G37iG7Hbd_La1A'}>channel</Link> on YouTube 📺. You can also connect with me on <Link href='https://www.linkedin.com/in/samuel-khongthaw-1a03a8206/' className='text-blue-600 hover:text-red-900'>LinkedIn</Link>.</div>
         <div className='pl-4 font-mono font-bold pt-10'>
             Stay tuned for more content...
           </div>
