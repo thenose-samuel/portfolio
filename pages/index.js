@@ -1,10 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-// import Image from 'next/image'
-// import { Inter } from 'next/font/google'
-// import styles from '@/styles/Home.module.css'
-
-// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -15,14 +10,56 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className='flex flex-col justify-between'>
+      <div id='navbar' className='sticky top-0 z-10 backdrop-filter backdrop-blur-md border-b border-gray-200 bg-opacity-30 flex justify-end font-mono font-bold items-center bg-white h-14  pr-2 md:pr-4'>
+        <div className='pr-2 md:pr-4'>Projects</div>
+        <div>Gallery</div>
+      </div>
       <div className='flex flex-col items-center'>
         <div className='max-w-5xl'>
-          <div className='text-3xl md:text-5xl  font-extrabold font-mono pt-24 pb-10 pl-4'>Hey!</div>
+          <div className='text-3xl md:text-5xl font-extrabold font-mono pt-20 pb-10 pl-4'>Hey!</div>
           <div className='text-lg md:text-2xl font-mono pl-4 container'>I&#39;m Samuel Khongthaw a CS junior at <span className='font-bold'>NIT, Meghalaya</span>. I enjoy working with Flutter and NextJS. Check out my <Link className='text-blue-600 hover:text-red-900' href={'https://www.youtube.com/channel/UCtZdrKp44G37iG7Hbd_La1A'}>channel</Link> on YouTube 📺. You can also connect with me on <Link href='https://www.linkedin.com/in/samuel-khongthaw-1a03a8206/' className='text-blue-600 hover:text-red-900'>LinkedIn</Link>.</div>
-        <div className='pl-4 font-mono font-bold pt-10'>
-            Stay tuned for more content...
+          <div className='pl-4 font-mono pt-10'>
+            Recent Blogs
+          </div>
+          <div id='blog-section font-mont' className='pt-6 pl-4'>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
+            <div className="font-bold text-xl">The Factory Constructor</div>
+            <div className='text-gray-600'>This is a sample blog. Content coming soon...</div>
           </div>
         </div>
+      </div>
       </div>
     </>
   )
