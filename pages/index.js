@@ -44,7 +44,7 @@ export default function Home({posts}) {
           </div>
           <div id='blog-section font-mont' className='pt-6 pl-4'>
             {posts.map((post) => {
-              return <Link href={`/blog/${post.slug}`}>
+              return <Link href={`/blog/${post.slug}`} key={post.slug}>
                       <div className="font-bold text-xl">{post.frontMatter.title}</div>
                       <div className='text-gray-600'>{post.frontMatter.metaDesc}</div>
                      </Link>
