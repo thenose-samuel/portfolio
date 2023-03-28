@@ -32,8 +32,8 @@ export default function Home({posts}) {
       </Head>
       <div className='flex flex-col bg-black h-screen'>
       <div id='navbar' className='sticky top-0 z-10 backdrop-filter backdrop-blur-md border-b border-gray-200 bg-opacity-30 flex justify-end font-monserrat font-bold items-center bg-black h-14  pr-2 md:pr-4'>
-        <div className='pr-4 md:pr-4 text-neutral-400 font-montserrat text-xs'>Blogs</div>
-        <div className='text-neutral-400 text-xs'>Gallery</div>
+        <div className='pr-4 md:pr-4 text-neutral-400 font-montserrat text-sm'>Blogs</div>
+        <div className='text-neutral-400 text-sm'>Gallery</div>
       </div>
       <div className='flex flex-col items-center'>
         <div className='max-w-2xl'>
