@@ -42,6 +42,17 @@ export default function Home({posts}) {
           <div style={{fontFamily: 'Mukta', fontWeight: '400'}} className='tracking-wider text-lg md:text-lg pl-4 container text-neutral-300'>
             When I&apos;m not making stuffs, you&apos;d probably find me watching a Scorsese movie (yes I love Robert De Niro) or listening to <Link className='text-green-600 hover:text-red-900' href={'https://open.spotify.com/album/6wRev1uYL0JsMsWqktJuVi?autoplay=true'}>Kissland </Link> or <Link href='https://open.spotify.com/album/5EbpxRwbbpCJUepbqVTZ1U?autoplay=true' className='text-neutral-600 hover:text-red-900'>Trilogy</Link>.
             </div>
+            <div style={{fontFamily: 'Mukta', fontWeight: '400'}} className='tracking-wider pl-4 pt-10 text-neutral-200'>
+            Recent Blogs
+          </div>
+          <div id='blog-section' className='pt-6 pl-4 text-neutral-200'>
+            {posts.map((post) => {
+              return <Link href={`/blog/${post.slug}`} key={post.slug}>
+                        <div style={{fontFamily: 'Mukta', fontWeight: '600'}} className="font-bold text-lg text-neutral-200">{post.frontMatter.title}</div>
+                        <div style={{fontFamily: 'Mukta', fontWeight: '400'}} className='text-neutral-600'>{post.frontMatter.metaDesc}</div>
+                     </Link>
+            })}
+          </div>
         </div>
       </div>
       </div>
