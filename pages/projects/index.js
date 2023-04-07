@@ -36,36 +36,36 @@ export default function Projects({ posts }) {
             </div>
             <div
               style={{ fontFamily: "Mukta", fontWeight: "400" }}
-              className="bg-neutral-900 w-max mt-10 max-w-xs md:max-w-xl h-max p-8 rounded-lg tracking-wider text-neutral-300 flex flex-col"
+              className="bg-neutral-900 w-max mt-10 max-w-xs md:max-w-xl h-max p-8 rounded-lg border-2 border-neutral-700 tracking-wider text-neutral-300 flex flex-col"
             >
               <div>
                 A timer based on the Pomodoro technique. Built using Flutter for
                 Android.
               </div>
-              <div className="pt-4 text-neutral-500">Source code:</div>
-              <div className="pt-4 text-neutral-500">Play Store:</div>
+              <div className="pt-4 text-neutral-500">Source code</div>
+              <div className="pt-4 text-neutral-500">Play Store</div>
             </div>
             <div
               style={{ fontFamily: "Mukta", fontWeight: "400" }}
-              className="bg-neutral-900 w-max mt-2 max-w-xs md:max-w-xl h-max p-8 rounded-lg tracking-wider text-neutral-300 flex flex-col"
+              className="bg-neutral-900 w-max mt-2 max-w-xs md:max-w-xl h-max p-8 rounded-lg tracking-wider border-2 border-neutral-700 text-neutral-300 flex flex-col"
             >
               <div>
                 An attendance management software built using Next.js and
                 TailwindCSS on the frontend.
               </div>
-              <div className="pt-4 text-neutral-500">Source code:</div>
-              <div className="pt-4 text-neutral-500">Play Store:</div>
+              <div className="pt-4 text-neutral-500">Source code</div>
+              <div className="pt-4 text-neutral-500">Play Store</div>
             </div>
             <div
               style={{ fontFamily: "Mukta", fontWeight: "400" }}
-              className="bg-neutral-900 w-max max-w-xs md:max-w-xl mt-2 h-max p-8 rounded-lg tracking-wider text-neutral-300 flex flex-col"
+              className="bg-neutral-900 w-max max-w-xs md:max-w-xl mt-2 h-max p-8 rounded-lg tracking-wider border-2 border-neutral-700 text-neutral-300 flex flex-col"
             >
               <div>
                 An attendance management software built using Next.js and
                 TailwindCSS on the frontend.
               </div>
-              <div className="pt-4 text-neutral-500">Source code:</div>
-              <div className="pt-4 text-neutral-500">Play Store:</div>
+              <div className="pt-4 text-neutral-500">Source code</div>
+              <div className="pt-4 text-neutral-500">Play Store</div>
             </div>
           </div>
         </div>
