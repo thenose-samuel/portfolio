@@ -30,13 +30,13 @@ export default function Projects({ posts }) {
           <div className="max-w-2xl flex flex-col items-center">
             <div
               style={{ fontFamily: "Mukta", fontWeight: "400" }}
-              className="text-center tracking-wider text-xl md:text-xl pl-4 container text-neutral-300"
+              className="text-center tracking-wider text-xl max-w-sm md:max-w-xl md:text-xl pl-4 container text-neutral-300"
             >
               Some personal/team projects.
             </div>
             <div
               style={{ fontFamily: "Mukta", fontWeight: "400" }}
-              className="bg-neutral-900 w-max mt-10 max-w-xl h-max p-10 rounded-lg tracking-wider text-neutral-300 flex flex-col"
+              className="bg-neutral-900 w-max mt-10 max-w-xs md:max-w-xl h-max p-8 rounded-lg tracking-wider text-neutral-300 flex flex-col"
             >
               <div>
                 A timer based on the Pomodoro technique. Built using Flutter for
@@ -47,7 +47,7 @@ export default function Projects({ posts }) {
             </div>
             <div
               style={{ fontFamily: "Mukta", fontWeight: "400" }}
-              className="bg-neutral-900 w-max max-w-xl mt-2 h-max p-10 rounded-lg tracking-wider text-neutral-300 flex flex-col"
+              className="bg-neutral-900 w-max mt-2 max-w-xs md:max-w-xl h-max p-8 rounded-lg tracking-wider text-neutral-300 flex flex-col"
             >
               <div>
                 An attendance management software built using Next.js and
@@ -58,7 +58,7 @@ export default function Projects({ posts }) {
             </div>
             <div
               style={{ fontFamily: "Mukta", fontWeight: "400" }}
-              className="bg-neutral-900 w-max max-w-xl mt-2 h-max p-10 rounded-lg tracking-wider text-neutral-300 flex flex-col"
+              className="bg-neutral-900 w-max max-w-xs md:max-w-xl mt-2 h-max p-8 rounded-lg tracking-wider text-neutral-300 flex flex-col"
             >
               <div>
                 An attendance management software built using Next.js and
