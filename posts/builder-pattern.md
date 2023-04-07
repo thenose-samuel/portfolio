@@ -106,13 +106,6 @@ Objects of `Computer` class can be instantiated using the following snippet
 As we can see, the object creation code is easy to write and easy to read. There is no danger of having an inconsistent object. The builder pattern incorporates the concept of Java Beans pattern in that mutators methods are used to change member variables but it has the safety of the telescoping constructor pattern as no inconsistent `Computer` object is created.
   
 
-
-  
-
-Thus, he tried to get his upper body out of the bed first and turned his head carefully toward the edge of the bed. He managed to do this easily, and in spite of its width and weight his body mass at last slowly followed the turning of his head. But as he finally raised his head outside the bed in the open air, he became anxious about moving forward any further in this manner, for if he allowed himself eventually to fall by this process, it would take a miracle to prevent his head from getting injured. And at all costs he must not lose consciousness right now. He preferred to remain in bed.
-
-  
-
 #### Does the introduction of named parameters eliminate the need for the Builder pattern?
 ***
-This is a question that came up in my mind as I studying this design pattern. I'll provide an update soon with what I find.
+This is a question that came up in my mind as I was studying this design pattern. I'll provide an update soon with what I find.
